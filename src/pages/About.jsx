@@ -353,6 +353,37 @@ export default function About() {
             </li>
           </ul>
         </div>
+
+        <div className="mt-12">
+          <h2 className="text-3xl font-bold text-gray-800 dark:text-[var(--color-text-light)] mb-6">
+            📬 Let's Talk
+          </h2>
+          <p className="text-gray-800 dark:text-[var(--color-text-light)] mb-4">
+            Want to build something together? Talk shop about the MERN stack? Share your favorite bug-that-wasn't-a-bug?
+          </p>
+          <p className="text-gray-800 dark:text-[var(--color-text-light)] mb-4">
+            Hit me up at{" "}
+            <a
+              href="mailto:sssandhu0172@gmail.com"
+              className="text-[var(--color-primary)]"
+            >
+              sssandhu0172@gmail.com
+            </a>{" "}
+            or find me lurking on{" "}
+            <a
+              href="https://linkedin.com/in/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--color-primary)]"
+            >
+              LinkedIn
+            </a>
+            .
+          </p>
+          <p className="text-gray-800 dark:text-[var(--color-text-light)]">
+            I'm always down for a dev chat, a football debate, or just swapping memes. ⚽💻😄
+          </p>
+        </div>
       </div>
     </div>
   );
