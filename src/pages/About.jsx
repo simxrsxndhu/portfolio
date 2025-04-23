@@ -371,7 +371,7 @@ export default function About() {
             </a>{" "}
             or find me lurking on{" "}
             <a
-              href="www.linkedin.com/in/simarpreet-sandhu"
+              href="https://www.linkedin.com/in/simarpreet-sandhu"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[var(--color-primary)]"
