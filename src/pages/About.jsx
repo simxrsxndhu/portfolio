@@ -14,7 +14,7 @@ export default function About() {
       </h1>
 
       <div className="mt-12 space-y-6">
-        <p className="py-3 text-gray-800 dark:text-[var(--color-text-light)]">
+        <p className="text-gray-800 dark:text-[var(--color-text-light)]">
           I'm a full-stack web developer who enjoys crafting seamless user experiences backed by clean backend logic — whether that's building full-featured apps with the{" "}
           <a
             href="https://www.mongodb.com/mern-stack"
@@ -90,7 +90,7 @@ export default function About() {
           .
         </p>
 
-        <p className="py-3 text-gray-800 dark:text-[var(--color-text-light)]">
+        <p className="text-gray-800 dark:text-[var(--color-text-light)]">
           Over the past few years, I've worked with startups and clients across the globe
           to bring ideas to life — designing web apps, dashboards, and e-commerce platforms that blend good design with great functionality. From developing reusable{" "}
           <a
@@ -122,7 +122,7 @@ export default function About() {
           , my focus is always on building scalable and maintainable products.
         </p>
 
-        <p className="py-3 text-gray-800 dark:text-[var(--color-text-light)]">
+        <p className="text-gray-800 dark:text-[var(--color-text-light)]">
           While I'm deeply rooted in web development, I've also been expanding into cloud engineering — and I genuinely enjoy combining full-stack builds with modern{" "}
           <a
             href="https://aws.amazon.com"
@@ -189,7 +189,7 @@ export default function About() {
           .
         </p>
 
-        <p className="py-3 text-gray-800 dark:text-[var(--color-text-light)]">
+        <p className="text-gray-800 dark:text-[var(--color-text-light)]">
           Lately, I've been working with{" "}
           <a
             href="https://aws.amazon.com/amplify"
@@ -233,7 +233,7 @@ export default function About() {
           <h2 className="text-3xl font-bold text-gray-800 dark:text-[var(--color-text-light)] mb-6">
             👾 Off the Clock...
           </h2>
-          <p className="py-3 text-gray-800 dark:text-[var(--color-text-light)]">
+          <p className="text-gray-800 dark:text-[var(--color-text-light)]">
             When I'm not coding, you'll probably find me:
           </p>
           <ul className="space-y-4 py-3 text-gray-800 dark:text-[var(--color-text-light)]">
@@ -277,7 +277,7 @@ export default function About() {
                 </a> 🎧</span>
             </li>
           </ul>
-          <p className="py-3 text-gray-800 dark:text-[var(--color-text-light)]">
+          <p className="text-gray-800 dark:text-[var(--color-text-light)]">
             I'm also guilty of spending too much time on personal UI tweaks, side projects I over-engineer for no reason. 🫠
           </p>
         </div>

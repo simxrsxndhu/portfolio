@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import exoticcarsrental from "../assets/exoticcarsrental.jpeg";
 import notes from "../assets/notes.png";
@@ -145,7 +146,7 @@ export default function Projects() {
           <FaArrowRight className="text-xl" /> Fun Stuff
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <a href="/memes" 
+          <Link to="/memes" 
             className="group relative block aspect-[4/3] overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800"
           >
             <img 
@@ -158,9 +159,9 @@ export default function Projects() {
                 Meme Generator
               </h3>
             </div>
-          </a>
+          </Link>
 
-          <a href="/game" 
+          <Link to="/game" 
             className="group relative block aspect-[4/3] overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800"
           >
             <img 
@@ -173,7 +174,7 @@ export default function Projects() {
                 Tic Tac Toe
               </h3>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
