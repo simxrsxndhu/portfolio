@@ -1,12 +1,81 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React, Vite, and TailwindCSS. Features interactive components, dark mode, and a clean, minimalist design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern Stack**: Built with React 19, Vite, and TailwindCSS
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Dark Mode**: Toggle between light and dark themes
+- **Interactive Elements**: 
+  - Meme Generator pulling from Reddit API
+  - Tic Tac Toe game with AI opponent
+  - Dynamic blog listings and project showcase
+- **Performance Optimized**: Includes Vercel Analytics and Speed Insights
+- **Clean Navigation**: Smooth routing with React Router
 
-## Expanding the ESLint configuration
+## 💻 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev)
+- [Vite](https://vitejs.dev)
+- [TailwindCSS](https://tailwindcss.com)
+- [React Router](https://reactrouter.com)
+- [React Icons](https://react-icons.github.io/react-icons)
+- [Vercel Analytics](https://vercel.com/analytics)
+
+## 🛠 Installation & Set Up
+
+1. Clone this repository
+```sh
+git clone https://github.com/yourusername/portfolio.git
+```
+
+2. Install dependencies
+```sh
+npm install
+```
+
+3. Start the development server
+```sh
+npm run dev
+```
+
+## 🏗 Building for Production
+
+1. Create a production build
+```sh
+npm run build
+```
+
+2. Preview the build
+```sh
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/      # Reusable components
+├── pages/          # Page components
+├── assets/         # Static assets
+└── styles/         # CSS styles
+```
+
+## 🎨 Features & Pages
+
+- **Home**: Introduction and overview
+- **About**: Detailed background and skills
+- **Projects**: Showcase of development work
+- **Blog**: Technical writing and articles
+- **Resume**: Professional experience
+- **Fun Stuff**: Interactive elements (Meme Generator, Tic Tac Toe)
+- **Credits**: Acknowledgments and tech stack details
+
+## 🌐 Browser Support
+
+The site is optimized for modern browsers and uses the latest React features.
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
