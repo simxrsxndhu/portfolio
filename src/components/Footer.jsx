@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
           <span className="text-gray-800 dark:text-[var(--color-text-light)]"> • </span>
           <a
-            href="https://github.com/simxrsxndhu"
+            href="https://github.com/simxrsxndhu/portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--color-primary)] hover:text-[var(--color-primary-hover)] transition-colors"
